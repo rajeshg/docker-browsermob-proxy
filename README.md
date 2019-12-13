@@ -13,7 +13,7 @@ This container runs [Browsermob Proxy](https://bmp.lightbody.net/) on standalone
 
 Start the container, binding desired ports:
 ```sh
-docker run -p 58080:8080 -p 58200:8200 bwowk/browsermob-proxy
+docker run -p 58080:8080 -p 58200:8200 rajgolla/browsermob-proxy
 ```
 Start a Proxy Server on desired port:
 ```sh
@@ -25,4 +25,4 @@ Test the Proxy Server:
 curl -I -x localhost:58200 www.docker.com
 ```
 
-For API reference check the [documentation](https://github.com/lightbody/browsermob-proxy/tree/browsermob-proxy-2.1.2#rest-api)
+For API reference check the [documentation](https://github.com/lightbody/browsermob-proxy/tree/browsermob-proxy-2.1.5#rest-api)
