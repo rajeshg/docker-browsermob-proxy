@@ -25,4 +25,4 @@ Test the Proxy Server:
 curl -I -x localhost:58200 www.docker.com
 ```
 
-For API reference check the [documentation](https://github.com/lightbody/browsermob-proxy/tree/browsermob-proxy-2.1.5#rest-api)
+For API reference check the [documentation](https://github.com/lightbody/browsermob-proxy/tree/browsermob-proxy-2.1.4#rest-api)
